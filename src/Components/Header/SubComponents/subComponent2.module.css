@@ -1,0 +1,53 @@
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 23px;
+}
+.logo{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 49px;
+    color: #8B7AA8;
+}
+.center{
+    position: relative;
+}
+.find{
+    width: 740px;
+    height: 55px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    resize: none;
+    padding-left: 148px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+.find__button{
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    padding: 15px 25px;
+    background: #8B7AA8;
+    border-radius: 20px; 
+    display: inline;
+}
+.find__button__categories{
+    position: absolute;
+    left: 10px;
+    top: 4px;
+}
+.find__button__find{
+    position: absolute;
+    right: 10px;
+    top: 4px;
+}
+.create__ad{
+    padding: 15px 14px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    background: #8B7AA8;
+    border-radius: 20px;
+}
