@@ -1,13 +1,20 @@
 import './App.css';
 import Header from './Components/Header/Header';
 import Footer from './Components/Footer/Footer';
+import Main from './Components/Main/Main';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-function App() {
+function App(props) {
   return (
-    <div className='content'>
-      <Header />
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <div className='content'>
+        <Header />
+        <Routes>
+          <Route path='/' element={<Main state={props.state.categories}/>}/>
+        </Routes>
+        <Footer />
+      </div>
+    </BrowserRouter>
   );
 }
 

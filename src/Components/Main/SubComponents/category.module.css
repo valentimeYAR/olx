@@ -1,0 +1,9 @@
+.cat{
+    width: 111px;
+    height: 123px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+

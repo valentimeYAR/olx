@@ -1,0 +1,13 @@
+.content{
+    width: 1440px;
+    margin: 0 auto;
+}
+.categories{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding-bottom: 70px;
+    padding-top: 50px;
+}
