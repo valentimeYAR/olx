@@ -72,5 +72,27 @@ export let state = {
             image: "images/Main/Categories/18.svg",
             text: 'Хобби и развлечения'
         },
+    ],
+    shops: [
+        {
+            image: 'images/Main/Shops/Platon.svg',
+            title: 'Мебель Платон',
+            ads: '49 объявлений',
+        },
+        {
+            image: 'images/Main/Shops/TVSHOP.svg',
+            title: 'TVShop',
+            ads: '10 объявлений',
+        },
+        {
+            image: 'images/Main/Shops/LIA.svg',
+            title: 'Лия',
+            ads: '104 объявления',
+        },
+        {
+            image: 'images/Main/Shops/undefined.svg',
+            title: 'RandomShop',
+            ads: '0 объявлений',
+        },
     ]
 }

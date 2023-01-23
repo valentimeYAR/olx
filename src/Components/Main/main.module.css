@@ -17,3 +17,8 @@
     margin-top: 61px;
     margin-bottom: 65px;
 }
+.shops{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

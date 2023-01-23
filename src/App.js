@@ -10,7 +10,7 @@ function App(props) {
       <div className='content'>
         <Header />
         <Routes>
-          <Route path='/' element={<Main state={props.state.categories}/>}/>
+          <Route path='/' element={<Main state={props.state.categories} shops={props.state.shops}/>}/>
         </Routes>
         <Footer />
       </div>

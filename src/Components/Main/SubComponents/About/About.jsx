@@ -1,5 +1,5 @@
 import styles from './about.module.css'
-import Button from '../button'
+import Button from '../../button'
 
 const About = props => {
     return (
@@ -9,17 +9,17 @@ const About = props => {
                 <p className={styles.text}>
                     Он экономит время поиска необходимых специалистов, товаров, услуг. А еще это место, где проверенные магазины могут найти новых благодарных клиентов.
                 </p>
-                <Button text='Все объявления'/>
+                <Button text='Все объявления' />
             </div>
-            <img src='images/boxes.png' alt="" className={styles.boxes}/>
+            <img src='images/boxes.png' alt="" className={styles.boxes} />
             <div className={styles.right}>
                 <p className={styles.right__element}>Безопасные сделки</p>
                 <p className={styles.right__element}>Онлайн-Магазины</p>
                 <p className={styles.right__element}>Турбо продажи</p>
                 <p className={styles.right__element}>Объявления на карте</p>
-                <img src="images/like.svg" alt="" className={styles.like}/>
+                <img src="images/like.svg" alt="" className={styles.like} />
             </div>
-            
+
         </div>
     )
 }
