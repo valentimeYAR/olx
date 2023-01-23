@@ -1,0 +1,16 @@
+.content{
+    line-height: 20px;
+    color: #212529;
+    position: relative;
+    display: inline;
+}
+.content::after{
+    content: '';
+    background-image: url(/public/images/Arrow.svg);
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 0;
+    right: -26px;
+}
