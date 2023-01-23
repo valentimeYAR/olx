@@ -1,4 +1,51 @@
-img{
-    width: 22px;
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left{
+    display: flex;
+    align-items: center;
+}
+.language{
+    font-size: 17px;
+    line-height: 21px;
+    color: #212529;
+    cursor: pointer; 
+}
+.flag{
+    width: 20px;
     height: 12px;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0 74px;
+}
+.center__links{
+    position: relative;
+    line-height: 20px;
+    color: #212529;    
+    cursor: pointer;
+}
+.center__point::before{
+    content: '';
+    background-image: url(/public/images/Header/point.svg);
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: -20px;
+}
+.right{
+    display: flex;
+    align-items: center;
+    gap: 0 11px;
+}
+.right__img{
+    width: 34px;
+    height: 34px;
+    cursor: pointer;
 }
