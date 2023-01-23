@@ -10,6 +10,7 @@ const Main = props =>{
                 {catElements}
              </div>
             <About />
+            <img src="images/Main/banner2.jpg" alt="" className={styles.banner2} />
         </div>
     )
 }
